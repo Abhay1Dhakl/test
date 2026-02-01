@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine? 💕</title>
+    <meta name="description" content="A special Valentine's Day message for someone special">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated background hearts -->
+    <div class="hearts-container">
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+    </div>
+
+    <!-- Main content -->
+    <div class="container">
+        <div class="content-wrapper">
+            <!-- Photo gallery section -->
+            <div class="photo-gallery">
+                <div class="photo-card" style="--delay: 0s;">
+                    <img src="photo1.jpg" alt="Our Memory 1">
+                </div>
+                <div class="photo-card" style="--delay: 0.2s;">
+                    <img src="photo2.jpg" alt="Our Memory 2">
+                </div>
+                <div class="photo-card" style="--delay: 0.4s;">
+                    <img src="photo3.jpg" alt="Our Memory 3">
+                </div>
+                <div class="photo-card" style="--delay: 0.6s;">
+                    <img src="photo4.jpg" alt="Our Memory 4">
+                </div>
+            </div>
+
+            <!-- Question section -->
+            <div class="question-section">
+                <h1 class="main-question">Will You Be My Valentine?</h1>
+                <p class="subtitle">You make my heart skip a beat 💗</p>
+                
+                <div class="buttons-container">
+                    <button id="yesBtn" class="btn btn-yes">Yes! 😍</button>
+                    <button id="noBtn" class="btn btn-no">No 😢</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sparkles effect -->
+    <canvas id="sparkles"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
