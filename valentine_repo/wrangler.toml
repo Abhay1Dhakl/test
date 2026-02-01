@@ -1,0 +1,8 @@
+name = "valentine-website"
+compatibility_date = "2026-02-01"
+
+[observability]
+enabled = true
+
+[assets]
+directory = "./dist"
